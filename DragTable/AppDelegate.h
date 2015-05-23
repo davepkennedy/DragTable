@@ -8,8 +8,13 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate, NSTableViewDataSource, NSTableViewDelegate>
 
+@property NSMutableArray* people;
+@property IBOutlet NSArrayController* arrayController;
+@property IBOutlet NSTableView* tableView;
+@property IBOutlet NSTextField* name;
+@property IBOutlet NSTextField* age;
 
 @end
 

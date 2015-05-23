@@ -12,6 +12,7 @@
 		55E76CC91B0FBEAC009723D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55E76CC81B0FBEAC009723D3 /* Images.xcassets */; };
 		55E76CCC1B0FBEAC009723D3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55E76CCA1B0FBEAC009723D3 /* MainMenu.xib */; };
 		55E76CD81B0FBEAC009723D3 /* DragTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E76CD71B0FBEAC009723D3 /* DragTableTests.m */; };
+		55E76CE31B0FC351009723D3 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E76CE21B0FC351009723D3 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 		55E76CD11B0FBEAC009723D3 /* DragTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55E76CD61B0FBEAC009723D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55E76CD71B0FBEAC009723D3 /* DragTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DragTableTests.m; sourceTree = "<group>"; };
+		55E76CE11B0FC351009723D3 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		55E76CE21B0FC351009723D3 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 				55E76CC81B0FBEAC009723D3 /* Images.xcassets */,
 				55E76CCA1B0FBEAC009723D3 /* MainMenu.xib */,
 				55E76CC11B0FBEAC009723D3 /* Supporting Files */,
+				55E76CE11B0FC351009723D3 /* Person.h */,
+				55E76CE21B0FC351009723D3 /* Person.m */,
 			);
 			path = DragTable;
 			sourceTree = "<group>";
@@ -210,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55E76CE31B0FC351009723D3 /* Person.m in Sources */,
 				55E76CC71B0FBEAC009723D3 /* main.m in Sources */,
 				55E76CC51B0FBEAC009723D3 /* AppDelegate.m in Sources */,
 			);
